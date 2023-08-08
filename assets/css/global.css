@@ -1,8 +1,32 @@
 * {
-  font-family: 'Roboto' , sans-serif;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  color: aqua;
+.content {
+  padding: 1rem;
 }
 
+ol.pokemons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style-type: none;
+}
+
+ol.pokemons li {
+  background-color: #14a06f;
+  border-radius: 1rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: .5rem;
+  padding: 2rem 1rem;
+}
+
+ol.pokemons img {
+  align-self: flex-end;
+  height: 110px;
+  max-width: 100%;
+}
