@@ -1,6 +1,6 @@
 .pokemons {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -55,7 +55,7 @@ text-align: right;
   transform: rotateY(180deg);
 }
 
-@media screen and (min-width: 380px) {
+@media screen and (min-width: 413px) {
   .pokemons {
     grid-template-columns: 1fr 1fr;
   }
