@@ -1,4 +1,5 @@
 const pokeapi = {};
+console.log("Cheguei no poke-api");
 
 pokeapi.getPokemons = (offset = 0, limit = 10) => {
 const url = `http://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`;
